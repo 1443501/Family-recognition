@@ -1,0 +1,19 @@
+#header{
+    width:80%;
+    font-size: 30px;
+}
+body{
+    background-color:indigo;
+    color: white;
+
+}
+#take_snapshot,#identify_image{
+    width: 100px;
+    
+}
+#camera,#result{
+    border-style: dashed;
+    width: 350px;
+    height: 350px;
+    border-width: 3px;
+}

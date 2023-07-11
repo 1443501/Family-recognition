@@ -1,0 +1,43 @@
+<html>
+    <head>
+    
+        <title>Image recognition</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+       <link rel="stylesheet" href="style.css">
+      <script src="main.js"></script>
+      </head>
+      <body>
+        <center>
+<h3 class="btn btn-default" id="header">Family Recognition App</h3>
+<br> <br>
+<p class="btn btn-default" style="font-size: 22px;"> Model is trained to identify the following objects:</p>
+<br>
+<b class 
+<b class="list">
+  Father
+  <hr>
+  Mother
+  <hr>
+  Sister
+  <hr>
+</b>
+<br><br>
+<div id="camera"></div>
+<br>
+<hr>
+<br>
+<div id="result"></div>
+<br>
+<button id="take snapshot" onclick="take_snapshot()"> Take Picture </button>
+<button id="identify image" onclick="show_result()"> Show Result </button>
+ <p style="font-size: 22px;">Family Member Name:<span id="family_member"></span> </p>
+ <p style="font-size: 22px;">Accuracy:<span id="accuracy"></span> </p>
+</center>
+        </body>
+</html
